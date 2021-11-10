@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compiled.css">
+    <title>TechnoCorp</title>
+</head>
+
+<body class='max-w-7xl m-auto font-montserrat px-2'>
+    <nav class='mt-7 flex justify-between flex-wrap mb-12 items-center text-sm'>
+        <img src="img/logo.svg" alt="Logo" class='w-52 pb-5 pr-2'>
+        <ul class='flex pb-5 pr-2'>
+            <li class="mr-7"><a href="">Главная</a></li>
+            <li class="mr-7"><a href="">Продукция</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+        <ul class="flex pb-5">
+            <li class="mr-7"><a href="">Вход</a></li>
+            <li><a href="">Регистрация</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form class="flex flex-col my-52 justify-center" method="post">
+            <h1 class="text-center text-blue font-bold text-4xl mb-5">Регистрация</h1>
+            <div class="flex flex-col">
+                <label for="email" class="hidden">Эл. Почта</label>
+                <input type="email" name="email" id="email" placeholder="Эл. почта"
+                    class="w-full sm:w-1/3 m-auto border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2">
+            </div>
+
+            <div class="flex flex-col mt-2">
+                <label for="password" class="hidden">Пароль</label>
+                <input type="password" name="password" id="password" placeholder="Пароль"
+                    class="w-full sm:w-1/3 m-auto border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2">
+            </div>
+            <div class="flex flex-col mt-2">
+                <label for="first-name" class="hidden">Имя</label>
+                <input type="text" name="first-name" id="first-name" placeholder="Имя"
+                    class="w-full sm:w-1/3 m-auto border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2">
+            </div>
+            <div class="flex flex-col mt-2">
+                <label for="last-name" class="hidden">Фамилия</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Фамилия"
+                    class="w-full sm:w-1/3 m-auto border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2">
+            </div>
+            <div class="flex flex-col mt-2">
+                <label for="tel" class="hidden">Номер телефона</label>
+                <input type="tel" name="tel" id="tel" placeholder="Номер телефона"
+                    class="w-full sm:w-1/3 m-auto border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2">
+            </div>
+            <div class="flex flex-col mt-2">
+                <label for="company" class="hidden">Название компании</label>
+                <input type="text" name="company" id="company" placeholder="Название компании"
+                    class="w-full sm:w-1/3 m-auto border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2">
+            </div>
+            <button type="submit" class="bg-blue text-white w-full sm:w-1/3 m-auto mt-3 py-2">
+                Войти
+            </button>
+        </form>
+    </section>
+    <footer class="mb-7 mt-12">
+        <div class="left-side">
+            <img src="img/logo-gray.svg" alt="logo" class="w-52 mb-4">
+            <p class="text-xs text-gray">©2020-2021 All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
