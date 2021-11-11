@@ -69,12 +69,47 @@
                     <span class="text-center w-1/4 font-semibold text-sm hidden sm:block">4613 Р</span>
                     <span class="text-center w-1/4 font-semibold text-sm">4613 Р</span>
                 </div>
-                <div class="">
+                <div>
                     <p class="bg-x-gray text-black px-5 py-3">Всего: 13839 Р</p>
-                    <a href=""
-                        class="bg-blue text-white px-5 py-3 mt-5 ml-auto small:w-1/5 w-full text-center block">Оформить
-                        заказ</a>
                 </div>
+            </section>
+            <section>
+                <form class="flex flex-col justify-center text-center mt-14 space-y-3" method="post">
+                    <h1 class="text-blue font-bold text-4xl mb-5">Оформление заказа</h1>
+                    <div class="flex flex-col">
+                        <label for="first-name" class="hidden">Имя</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Имя"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="last-name" class="hidden">Фамилия</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Фамилия"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="email" class="hidden">Эл. почта</label>
+                        <input type="email" name="email" id="email" placeholder="Эл. почта"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col mt-2">
+                        <label for="tel" class="hidden">Телефон</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Телефон"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col mt-2">
+                        <label for="address" class="hidden">Адрес</label>
+                        <input type="text" name="address" id="address" placeholder="Адрес"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col mt-2">
+                        <label for="comment" class="hidden">Комментарий к заказу</label>
+                        <textarea type="text" name="comment" id="comment" placeholder="Комментарий к заказу"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue text-white w-2/3 mt-3 py-2 mx-auto">
+                        Войти
+                    </button>
+                </form>
             </section>
         </div>
         <footer class="pb-7 mt-12 flex-none">
