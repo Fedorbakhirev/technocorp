@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compiled.css">
+    <title>TechnoCorp</title>
+</head>
+
+<body class='max-w-7xl m-auto font-montserrat px-2'>
+    <div class="flex flex-col h-screen">
+        <nav class='mt-7 flex justify-between flex-wrap mb-12 items-center text-sm'>
+            <img src="img/logo.svg" alt="Logo" class='w-52 pb-5 pr-2'>
+            <ul class='flex pb-5 pr-2'>
+                <li class="mr-7"><a href="">Главная</a></li>
+                <li class="mr-7"><a href="">Продукция</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+            <ul class="flex pb-5">
+                <li class="mr-7"><a href="">Вход</a></li>
+                <li><a href="">Регистрация</a></li>
+            </ul>
+        </nav>
+        <div class="flex-1">
+            <section>
+                <form class="flex flex-col justify-center text-center mt-14 space-y-3" method="post">
+                    <h1 class="text-blue font-bold text-4xl mb-5">Оформление заказа</h1>
+                    <div class="flex flex-col">
+                        <label for="first-name" class="hidden">Имя</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Имя"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="last-name" class="hidden">Фамилия</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Фамилия"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="email" class="hidden">Эл. почта</label>
+                        <input type="email" name="email" id="email" placeholder="Эл. почта"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col mt-2">
+                        <label for="tel" class="hidden">Телефон</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Телефон"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col mt-2">
+                        <label for="address" class="hidden">Адрес</label>
+                        <input type="text" name="address" id="address" placeholder="Адрес"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto">
+                    </div>
+                    <div class="flex flex-col mt-2">
+                        <label for="comment" class="hidden">Комментарий к заказу</label>
+                        <textarea type="text" name="comment" id="comment" placeholder="Комментарий к заказу"
+                            class="w-2/3 border border-x-gray focus:border-gray-400 focus:outline-none py-2 px-2 mx-auto"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue text-white w-2/3 mt-3 py-2 mx-auto">
+                        Заказать
+                    </button>
+                </form>
+            </section>
+        </div>
+        <footer class="pb-7 mt-12 flex-none">
+            <img src="img/logo-gray.svg" alt="logo" class="w-52 mb-4">
+            <p class="text-xs text-gray">©2020-2021 All rights reserved</p>
+        </footer>
+    </div>
+</body>
+
+</html>
